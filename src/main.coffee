@@ -14,7 +14,7 @@ scene('Action Potential Generation', 'ghk') ->
         wait 500
 
         line 'ap_line1',
-            "We're now going to let the simulation run for three iterations.  Of course, more sophisticated scripting is also possible",
+            "This is just a dummy script... the real version would walk the student through using the demo point by point",
             {'NaChannelVisible': true, 'KChannelVisible': false} # <-- settings for the stage
 
         play 'beginning'
