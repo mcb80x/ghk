@@ -1,4 +1,4 @@
-# MCB80x Action Potential Propagation Demo
+# MCB80x GHK Equation Demo
 
 Some experiments in building a GHK simulator for mcb80x.
 
