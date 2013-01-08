@@ -1,8 +1,8 @@
 # MCB80x Action Potential Propagation Demo
 
-Some experiments in building an AP propagation simulator for mcb80x.
+Some experiments in building a GHK simulator for mcb80x.
 
-Live demo: [mcb80x.github.com/ap-propagation](http://mcb80x.github.com/ap-propagation)
+Live demo: [mcb80x.github.com/ghk](http://mcb80x.github.com/ghk)
 
 ## Dependencies:
 
