@@ -7057,7 +7057,8 @@ AAAAAAAAAHDwbwEGABmf9qqA4uW0AAAAAElFTkSuQmCC" transform="matrix(0.2355 0 0 0.236
 <text transform="matrix(1 0 0 1 135.769 120.4526)" font-family="'Helvetica-Bold'" font-size="17.4998">VOLTAGE (E</text>
 <text transform="matrix(1 0 0 1 242.7148 124.4546)" font-family="'Helvetica-Bold'" font-size="17.4998">m</text>
 <text transform="matrix(1 0 0 1 258.2764 120.4526)" font-family="'Helvetica-Bold'" font-size="17.4998">)</text>
-<text id="EmText" transform="matrix(1 0 0 1 157.7798 188.3188)" fill="#9A1C1F" font-family="'Helvetica-Bold'" font-size="34.9996">-120</text>
+<!-- <text id="EmText" transform="matrix(1 0 0 1 157.7798 188.3188)" fill="#9A1C1F" font-family="'Helvetica-Bold'" font-size="34.9996">-120</text> -->
+<text id="EmText" transform="translate(157.7798, 188.3188)" fill="#9A1C1F" font-family="'Helvetica-Bold'" font-size="34.9996">-120</text>
 <text id="text1869" transform="matrix(1 0 0 1 177.2896 216.853)" fill="#5E5F5F" font-family="'MyriadPro-Semibold'" font-size="29.1663">mV</text>
 <text id="text1871" transform="matrix(1 0 0 1 99.7466 67.0103)" fill="#D1D2D1" font-family="'Helvetica-Bold'" font-size="40.8328">extracellular</text>
 <text id="text1873" transform="matrix(1 0 0 1 110.8716 540.2715)" fill="#D1D2D1" font-family="'Helvetica-Bold'" font-size="40.8328">intracellular</text>
