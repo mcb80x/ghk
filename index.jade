@@ -1,0 +1,51 @@
+html
+
+  head
+
+    // script(src='http://ajax.googleapis.com/ajax/libs/jquery/1.3/jquery.min.js')
+    // script(src='http://ajax.googleapis.com/ajax/libs/jqueryui/1.9.2/jquery-ui.min.js')
+    script(src='http://mbostock.github.com/d3/d3.js')
+    script(src='js/ap-debug.js')
+
+    link(rel='stylesheet', type='text/css', href='css/jquery-ui-1.9.2.custom.css')
+    link(rel='stylesheet', type='text/css', href='css/mcb80x.css')
+
+  body
+
+
+
+    #stage
+      #prompt_overlay
+      #art
+        #K_extra_pane.properties-pane
+          span(data-bind='text: K_extra')
+          span &nbsp;mM
+          br
+          div(data-bind="slider: K_extra, sliderOptions: {min: 50, max: 400, range: false, step: 5}")
+
+        #K_intra_pane.properties-pane
+          span(data-bind='text: K_intra')
+          span &nbsp; mM
+          br
+          div(data-bind="slider: K_intra, sliderOptions: {min: 50, max: 400, range: false, step: 5}")
+
+        #Na_extra_pane.properties-pane
+          span(data-bind='text: Na_extra')
+          span &nbsp;mM
+          br
+          div(data-bind="slider: Na_extra, sliderOptions: {min: 50, max: 400, range: false, step: 5}")
+
+        #Na_intra_pane.properties-pane
+          span(data-bind='text: Na_intra')
+          span &nbsp; mM
+          br
+          div(data-bind="slider: Na_intra, sliderOptions: {min: 50, max: 400, range: false, step: 5}")
+
+
+      #video
+        video(height='100%', width='100%', id="vid")
+      .timeline-controls
+        //- button.timeline-play
+        #timeline.timeline-container
+
+
